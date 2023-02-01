@@ -1,3 +1,3 @@
-zigi
+Zigi
 
-z/OS ISPF Git interface
+Zopen framework build for https://github.com/ZOSOpenTools/zigiport
