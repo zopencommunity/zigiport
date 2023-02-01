@@ -1,0 +1,34 @@
+export ZOPEN_GIT_URL="https://github.com/zigi/zigi.git"
+export ZOPEN_GIT_DEPS="git"
+export ZOPEN_TYPE="GIT"
+
+export ZOPEN_CONFIGURE="skip"
+export ZOPEN_MAKE="skip"
+export ZOPEN_CHECK="skip"
+
+export ZOPEN_INSTALL="zopen_install"
+
+zopen_check_results()
+{
+  dir="$1"
+  pfx="$2"
+  chk="$1/$2_check.log"
+
+  # Echo the following information to gauge build health
+  echo "actualFailures:0"
+  echo "totalTests:1"
+  echo "expectedFailures:0"
+}
+
+zopen_install()
+{
+  set -e
+  mkdir -p $ZOPEN_INSTALL_DIR
+  cp -r $PWD/ $ZOPEN_INSTALL_DIR/
+  set +e
+}
+
+zopen_append_to_setup()
+{
+  echo ". ./zginstall.rex"
+}
