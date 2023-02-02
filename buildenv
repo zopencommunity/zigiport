@@ -30,5 +30,5 @@ zopen_install()
 
 zopen_append_to_setup()
 {
-  echo ". ./zginstall.rex"
+  echo "./zginstall.rex"
 }
