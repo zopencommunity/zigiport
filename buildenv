@@ -6,6 +6,8 @@ export ZOPEN_CONFIGURE="skip"
 export ZOPEN_MAKE="skip"
 export ZOPEN_CHECK="skip"
 
+export ZOPEN_RUNTIME_DEPS="git"
+
 export ZOPEN_INSTALL="zopen_install"
 
 zopen_check_results()
@@ -30,5 +32,5 @@ zopen_install()
 
 zopen_append_to_setup()
 {
-  echo "./zginstall.rex"
+  echo "echo \"Please run ./zginstall.sh to complete the setup\""
 }
