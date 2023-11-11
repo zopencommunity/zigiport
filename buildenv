@@ -1,6 +1,9 @@
-export ZOPEN_GIT_URL="https://github.com/zigi/zigi.git"
-export ZOPEN_GIT_DEPS="git"
-export ZOPEN_TYPE="GIT"
+# bump: zigi-version /ZIGI_VERSION="(.*)"/ gitrefs:https://github.com/zigi/zigi.git|re:/v(\d+)r(\d+)/$1.$2/|semver:*
+ZIGI_VERSION=3.18"
+
+export ZOPEN_BUILD_LINE="DEV"
+export ZOPEN_DEV_URL="https://github.com/zigi/zigi.git"
+export ZOPEN_DEV_DEPS="git"
 
 export ZOPEN_CONFIGURE="skip"
 export ZOPEN_MAKE="skip"
