@@ -9,7 +9,7 @@ export ZOPEN_CONFIGURE="skip"
 export ZOPEN_MAKE="skip"
 export ZOPEN_CHECK="skip"
 
-export ZOPEN_RUNTIME_DEPS="git c3270"
+export ZOPEN_RUNTIME_DEPS="git"
 
 export ZOPEN_INSTALL="zopen_install"
 
@@ -35,7 +35,7 @@ zopen_install()
 
 zopen_caveat()
 {
-  echo "Please run ./zginstall.sh to complete the setup."
+  echo "cd to \$ZOPEN_PKGINSTALL/zigi/zigi and run ./zginstall.rex to complete the setup."
 }
 
 zopen_get_version()
