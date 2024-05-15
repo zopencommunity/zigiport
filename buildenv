@@ -35,7 +35,7 @@ zopen_install()
 
 zopen_caveat()
 {
-  echo "echo \"Please run ./zginstall.sh to complete the setup\""
+  echo "Please run ./zginstall.sh to complete the setup."
 }
 
 zopen_get_version()
