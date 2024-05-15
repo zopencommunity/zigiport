@@ -1,5 +1,5 @@
 # bump: zigi-version /ZIGI_VERSION="(.*)"/ gitrefs:https://github.com/zigi/zigi.git|re:/v(\d+)r(\d+)/$1.$2/|semver:*
-ZIGI_VERSION="3.18"
+ZIGI_VERSION="3.20"
 
 export ZOPEN_BUILD_LINE="DEV"
 export ZOPEN_DEV_URL="https://github.com/zigi/zigi.git"
@@ -33,7 +33,7 @@ zopen_install()
   set +e
 }
 
-zopen_append_to_setup()
+zopen_caveat()
 {
   echo "echo \"Please run ./zginstall.sh to complete the setup\""
 }
