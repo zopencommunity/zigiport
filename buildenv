@@ -2,6 +2,7 @@
 ZIGI_VERSION="v3r22"
 
 export ZOPEN_BUILD_LINE="DEV"
+export ZOPEN_CATEGORIES="utilities"
 export ZOPEN_DEV_URL="https://github.com/zigi/zigi.git"
 export ZOPEN_DEV_DEPS="git"
 
