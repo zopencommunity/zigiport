@@ -1,7 +1,8 @@
 # bump: zigi-version /ZIGI_VERSION="(.*)"/ gitrefs:https://github.com/zigi/zigi.git|re:/v(\d+)r(\d+)/$1.$2/|semver:*
-ZIGI_VERSION="3.20"
+ZIGI_VERSION="v3r23"
 
 export ZOPEN_BUILD_LINE="DEV"
+export ZOPEN_CATEGORIES="utilities"
 export ZOPEN_DEV_URL="https://github.com/zigi/zigi.git"
 export ZOPEN_DEV_DEPS="git"
 
@@ -35,7 +36,7 @@ zopen_install()
 
 zopen_caveat()
 {
-  echo "cd to \$ZOPEN_PKGINSTALL/zigi/zigi and run ./zginstall.rex to complete the setup."
+  echo "cd to \$ZOPEN_PKGINSTALL/zigi/zigi and run zginstall.rex to complete the setup."
 }
 
 zopen_get_version()
