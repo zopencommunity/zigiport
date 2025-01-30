@@ -1,9 +1,35 @@
 [![Automatic version updates](https://github.com/ZOSOpenTools/zigiport/actions/workflows/bump.yml/badge.svg)](https://github.com/ZOSOpenTools/zigiport/actions/workflows/bump.yml)
 
-# ZIGI
+# Zigi
 
-This is a work in progress and is not ready for primetime.
+A git interface for ispf
 
-Get the updated zigi from https://github.com/zigi/zigi
+# Installation and Usage
 
-Zopen framework build for https://github.com/ZOSOpenTools/zigiport
+Use the zopen package manager ([QuickStart Guide](https://zopen.community/#/Guides/QuickStart)) to install:
+```bash
+zopen install zigi
+```
+
+# Building from Source
+
+1. Clone the repository:
+```bash
+git clone https://github.com/zopencommunity/zigiport.git
+cd zigiport
+```
+2. Build using zopen:
+```bash
+zopen build -vv
+```
+
+See the [zopen porting guide](https://zopen.community/#/Guides/Porting) for more details.
+
+# Documentation
+
+
+# Troubleshooting
+TBD
+
+# Contributing
+Contributions are welcome! Please follow the [zopen contribution guidelines](https://github.com/zopencommunity/meta/blob/main/CONTRIBUTING.md).
