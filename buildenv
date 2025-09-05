@@ -1,5 +1,5 @@
 # bump: zigi-version /ZIGI_VERSION="(.*)"/ gitrefs:https://github.com/zigi/zigi.git|re:/v(\d+)r(\d+)/$1.$2/|semver:*
-ZIGI_VERSION="v3r23"
+ZIGI_VERSION="3.25"
 
 export ZOPEN_BUILD_LINE="DEV"
 export ZOPEN_CATEGORIES="utilities"
