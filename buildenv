@@ -41,5 +41,5 @@ zopen_caveat()
 
 zopen_get_version()
 {
-  cat ZIGI.EXEC/ZIGI | grep "ver = '" | cut -f2 -d\' | sed -E 's/v([0-9]+)r([0-9]+)/\1.\2/'
+  cat ZIGI.EXEC/ZIGIVER | grep "return '" | cut -f2 -d\' | sed -E 's/v([0-9]+)r([0-9]+)/\1.\2/'
 }
